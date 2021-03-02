@@ -2,30 +2,116 @@
 
 ## Identification of the *problem* you are trying to solve by building this particular marketplace *app*.
 
+surge in home gardens during pandemic
+
+no marketplace dedicated to being able to buy and sell produce (facebook marketplace, gumtree???)
+
+reduce friction associated with those marketplaces - bartering and messaging (although veggie marketplace should probably still have messaging capabilities)
+
+
+
 ## Why is it a *problem* that needs solving?
 
+reduce carbon footprint associated with transportation and supply chains
+
+support local businesses and people over large corporations
+
+during the pandemic, trying to reduce travel
+
+
+
 ## A link (URL) to your deployed *app* (i.e. website)
+
+deployment on Heroku
 
 ## A link to your GitHub repository (repo).
 \- *Ensure the repo is accessible by your Educators*
 
+not yet named but this is the repo:
+
+https://github.com/theandrewfulton/marketplace-app
+
 ## Description of your marketplace *app* (website), including:
 ### Purpose
+
+purpose of the marketplace to facilitate easily buying and selling homegrown produce in and around their local area
+
 ### Functionality / features
+
+view listings
+
+​	quantity
+
+search listings
+
+messaging
+
+payment gateway
+
+add/delete/manage listings
+
+users can log in to create listings and make purchases
+
+reviews???
+
+fee on creating listings or just on buying???
+
+reviews for seller but still on listing?
+
+location field on listing?
+
+how to stop customers cancelling orders and paying sellers directly?
+
+- cancellations to go through administrators?
+  - how can they tell what's happening
+  - how does Airbnb do it?
+
 ### Sitemap
 ### Screenshots
 ### Target audience
 ### Tech stack (e.g. html, css, deployment platform, etc)
 
+html and css as part of ruby on rails
+
+deployed on heroku
+
+images hosted on cloundinary/AWS S3
+
+database with PostgreSQL with ruby translated into SQL with ActiveRecord
+
 ## User stories for your *app*
 
+see Trello, paste when finalised
+
 ## Wireframes for your *app*
+
+combined login/sign up screen if possible, otherwise one for each
+
+see listings
+
+one listing - showing information, photos and reviews
+
+messages?
+
+nav bar along the top with stuff like an "about" page
+
+
 
 ## An ERD for your *app*
 
 ## Explain the different high-level components (abstractions) in your *app*
 
 ## Detail any third party services that your *app* will use
+
+Cloudinary/AWS
+
+Stripe
+
+Messaging service
+
+github
+
+Australia Post??? - some other API for postcodes - maps?
 
 ## Describe your projects *models* in terms of the relationships (active record associations) they have with each other
 
@@ -35,3 +121,4 @@
 
 ## Describe the way tasks are allocated and tracked in your project
 
+using trello with colour coded labels
