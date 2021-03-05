@@ -95,9 +95,55 @@ messages?
 
 nav bar along the top with stuff like an "about" page
 
+omniauth for sign up/log in page
 
+admin dashboard - not mvp at this stage
+
+wireframe for messaging? - hard for plugins
+
+image carosel? - or just a list, or thumbnails you can click on?
+
+first image uploaded is the image that appears on listings
+
+Buy Now and Add to Cart?
+
+max 5 images
+
+Home? - or show listings but if not logged in, show explainer
+
+About?
+
+user page?
+
+option for total quantity? - then choose what to offer? - might be hard to implement in the time given
+
+
+
+all listings
+
+one listing
+
+create listing
+
+messaging
+
+about
+
+buy page
+
+sign up
+
+sign in
+
+manage user listings
+
+quantity capped out at maximum?
+
+controller to change create and edit listing depending on whether the listing already exists
 
 ## An ERD for your *app*
+
+start quantity and current quantity column?
 
 ## Explain the different high-level components (abstractions) in your *app*
 
