@@ -145,6 +145,14 @@ controller to change create and edit listing depending on whether the listing al
 
 start quantity and current quantity column?
 
+sold
+
+Bank details for sellers!
+
+image size parameters
+
+Transactions (including wireframe)
+
 ## Explain the different high-level components (abstractions) in your *app*
 
 ## Detail any third party services that your *app* will use
