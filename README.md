@@ -157,6 +157,8 @@ rails 6.0.3 if you have issues with Heroku and bootsnap
 
 set root to listings
 
+add omniauthable trait to devise
+
 
 
 ## An ERD for your *app*
