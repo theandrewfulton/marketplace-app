@@ -141,6 +141,24 @@ quantity capped out at maximum?
 
 controller to change create and edit listing depending on whether the listing already exists
 
+
+
+sort listings by most recently updated? - created by rails by default
+
+categories in seed file?
+
+seed user once you have a user model
+
+roles table?
+
+rails 6.0.3 if you have issues with Heroku and bootsnap
+
+
+
+set root to listings
+
+
+
 ## An ERD for your *app*
 
 start quantity and current quantity column?
