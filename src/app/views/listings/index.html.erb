@@ -1,5 +1,25 @@
 <p id="notice"><%= notice %></p>
 
+<%# if not signed in, show welcome banner %>
+<% if user_signed_in? == false %>
+    <div class="shadow bg-white">
+        <div class=" bg-size bg-cover bg-center"
+             style="background-image: url('https://unsplash.com/photos/yNB8niq1qCk/download?force=true&w=1920')">
+            <div class="p-4 h-32 flex items-end text-white">
+                <h3 class="mb-2">Welcome to Fresh Local </h3>
+            </div>
+        </div>
+        <div class="p-4">
+            <p class="text-grey-600 text-sm">Fresh Local is a place for you and your neighbours to buy and sell the things you grow! </p>
+            <div class="mt-4">
+                <%= link_to "Sign Up", new_user_registration_path, class: "block md:inline-block text-sm px-4 py-2 leading-none rounded text-white border-white bg-indigo-500 hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 md:mt-0" %>
+                <%# Implement "About Page" %>
+                <%= link_to "About", class: "block md:inline-block text-sm px-4 py-2 leading-none rounded text-white border-white bg-indigo-500 hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 md:mt-0" %>
+            </div>
+        </div>
+    </div>
+<% end %>
+
 <h1>Listings</h1>
 
 <table>
