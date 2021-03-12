@@ -157,7 +157,11 @@ rails 6.0.3 if you have issues with Heroku and bootsnap
 
 set root to listings
 
-add omniauthable trait to devise
+add omniauthable trait to devise in models/user.rb
+
+
+
+use mailer?
 
 
 
@@ -172,6 +176,8 @@ Bank details for sellers!
 image size parameters
 
 Transactions (including wireframe)
+
+add photos to erd
 
 ## Explain the different high-level components (abstractions) in your *app*
 

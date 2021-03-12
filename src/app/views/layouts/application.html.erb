@@ -13,9 +13,8 @@
 
   <body>
   <%# nav bar %>
-  <%# <%= render "shared/navbar" %> %>
-  <%# Notices and alerts %>
-    <p class="notice"><%= notice %></p>
+  <%= render "shared/navbar" %>
+  <%# Alerts (for devise) %>
     <p class="alert"><%= alert %></p>
   
     <%= yield %>
