@@ -159,11 +159,21 @@ set root to listings
 
 add omniauthable trait to devise in models/user.rb
 
-
+check scaffolds.scss - at least the visited section
 
 use mailer?
 
 
+
+edit user details using routes including delete account or modify profile
+
+
+
+Move welcome message to partial?
+
+investigate button to and/or abbreviated styling for tailwindcss
+
+fix banner image
 
 ## An ERD for your *app*
 
