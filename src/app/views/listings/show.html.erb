@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @listing.title %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @listing.location %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @listing.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @listing.price %>
+</p>
+
+<p>
+  <strong>Unit:</strong>
+  <%= @listing.unit %>
+</p>
+
+<p>
+  <strong>Quantity total:</strong>
+  <%= @listing.quantity_total %>
+</p>
+
+<p>
+  <strong>Quantity available:</strong>
+  <%= @listing.quantity_available %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @listing.user %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @listing.rating %>
+</p>
+
+<p>
+  <strong>Reviews:</strong>
+  <%= @listing.reviews %>
+</p>
+
+<p>
+  <strong>Sold:</strong>
+  <%= @listing.sold %>
+</p>
+
+<%= link_to 'Edit', edit_listing_path(@listing) %> |
+<%= link_to 'Back', listings_path %>
