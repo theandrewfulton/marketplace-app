@@ -23,6 +23,7 @@ class ListingsController < ApplicationController
   def create
     @listing = Listing.new(listing_params)
     @listing.user = current_user
+    @listing.images.attach(params[:listing][:images])
 
     respond_to do |format|
       if @listing.save
