@@ -1,1 +1,1 @@
-rails g scaffold listings title:string location:string description:text price:float unit:string quantity_total:integer quantity_available:integer user:integer rating:float reviews:integer sold:boolean
+rails g scaffold listings title:string location:string description:text price:float unit:string quantity_total:integer quantity_available:integer rating:float reviews:integer sold:boolean

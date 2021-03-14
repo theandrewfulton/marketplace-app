@@ -46,10 +46,6 @@
     <%= form.number_field :quantity_available %>
   </div>
 
-  <div class="field">
-    <%= form.label :user %>
-    <%= form.number_field :user %>
-  </div>
 
   <div class="field">
     <%= form.label :rating %>
@@ -64,6 +60,11 @@
   <div class="field">
     <%= form.label :sold %>
     <%= form.check_box :sold %>
+  </div>
+
+  <div class="field">
+    <%= form.label :images %>
+    <%= form.file_field :images, multiple: true %>
   </div>
 
   <div class="actions">
