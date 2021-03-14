@@ -8,7 +8,6 @@ class CreateListings < ActiveRecord::Migration[6.1]
       t.string :unit
       t.integer :quantity_total
       t.integer :quantity_available
-      t.integer :user
       t.float :rating
       t.integer :reviews
       t.boolean :sold
