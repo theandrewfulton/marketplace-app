@@ -175,6 +175,31 @@ investigate button to and/or abbreviated styling for tailwindcss
 
 fix banner image
 
+
+
+come back to rspec - 54 minutes T2W6 Thursday Morning
+
+- probably need to create test user and figure out how to get the test user ID to match in order for the test to pass
+- Factorybot to change dummy data for tests - drier code and easier to change
+- or use seed file? - but will go into production
+- use tests for business logic
+  - positive prices on listings
+  - listings need titles
+
+table of available units
+
+activestorage has polymorphic relationships
+
+something along the lines of photo.limit(5) limits the number of files fetched, but does not prevent upload
+
+
+
+FIX USER ENTRY IN LISTINGS
+
+
+
+validates_length_of validation message needs improvement but it works
+
 ## An ERD for your *app*
 
 start quantity and current quantity column?
