@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_14_065847) do
+ActiveRecord::Schema.define(version: 2021_03_14_102409) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -51,7 +51,6 @@ ActiveRecord::Schema.define(version: 2021_03_14_065847) do
     t.string "unit"
     t.integer "quantity_total"
     t.integer "quantity_available"
-    t.integer "user"
     t.float "rating"
     t.integer "reviews"
     t.boolean "sold"
