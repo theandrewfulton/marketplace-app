@@ -192,7 +192,11 @@ activestorage has polymorphic relationships
 
 something along the lines of photo.limit(5) limits the number of files fetched, but does not prevent upload
 
+every listing should have at least one photo
 
+@listing.photo.is_attached? 
+
+activestorage only allow images
 
 FIX USER ENTRY IN LISTINGS
 
