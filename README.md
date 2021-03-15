@@ -200,9 +200,11 @@ activestorage only allow images
 
 FIX USER ENTRY IN LISTINGS
 
-
+I have installed omniauth for stripe connect - figure it out
 
 validates_length_of validation message needs improvement but it works
+
+Added app/javascript/stylesheets/_buttons.scss as per stripe guide, consolidate and figure out if time
 
 ## An ERD for your *app*
 
