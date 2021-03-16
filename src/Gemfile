@@ -62,3 +62,8 @@ gem 'devise'
 # add cloudinary gems for image uploading
 gem 'cloudinary'
 gem 'activestorage-cloudinary-service'
+
+# add gems for Stripe Connect
+gem 'stripe'
+gem 'omniauth'
+gem 'omniauth-stripe-connect'
