@@ -51,6 +51,13 @@
 </p>
 
 <p>
+  <strong>Images:</strong>
+  <% @listing.images.each do |image| %>
+    <%= image_tag image %>
+  <% end %>
+</p>
+
+<p>
   <strong>Sold:</strong>
   <%= @listing.sold %>
 </p>

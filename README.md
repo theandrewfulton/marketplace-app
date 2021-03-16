@@ -159,11 +159,52 @@ set root to listings
 
 add omniauthable trait to devise in models/user.rb
 
-
+check scaffolds.scss - at least the visited section
 
 use mailer?
 
 
+
+edit user details using routes including delete account or modify profile
+
+
+
+Move welcome message to partial?
+
+investigate button to and/or abbreviated styling for tailwindcss
+
+fix banner image
+
+
+
+come back to rspec - 54 minutes T2W6 Thursday Morning
+
+- probably need to create test user and figure out how to get the test user ID to match in order for the test to pass
+- Factorybot to change dummy data for tests - drier code and easier to change
+- or use seed file? - but will go into production
+- use tests for business logic
+  - positive prices on listings
+  - listings need titles
+
+table of available units
+
+activestorage has polymorphic relationships
+
+something along the lines of photo.limit(5) limits the number of files fetched, but does not prevent upload
+
+every listing should have at least one photo
+
+@listing.photo.is_attached? 
+
+activestorage only allow images
+
+FIX USER ENTRY IN LISTINGS
+
+I have installed omniauth for stripe connect - figure it out
+
+validates_length_of validation message needs improvement but it works
+
+Added app/javascript/stylesheets/_buttons.scss as per stripe guide, consolidate and figure out if time
 
 ## An ERD for your *app*
 
