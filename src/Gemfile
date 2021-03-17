@@ -57,3 +57,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # add devise gem for authentication
 gem 'devise'
+
+# add gems for Pusher - live chat integration
+gem 'jquery-rails'
+gem 'pusher'
+# gem 'figaro'
