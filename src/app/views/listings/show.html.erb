@@ -61,6 +61,25 @@
   <strong>Sold:</strong>
   <%= @listing.sold %>
 </p>
+<%# potentially move javascript in script tage to separate js file %>
+<button data-stripe="payment">
+Buy Now
+</button>
+
+<script src="https://js.stripe.com/v3/"></script>
+<script>
+  document
+    .querySelector("[data-stripe='payment']")
+    .addEventListener("click", () => {
+      const stripe = Stripe(
+        "<%= Rails.application.credentials.dig(:stripe, :publishable_key) %>"
+      )
+
+      stripe.redirectToCheckout({
+        sessionId: "<%= @session_id %>"
+      })
+    })
+</script>
 
 <%= link_to 'Edit', edit_listing_path(@listing) %> |
 <%= link_to 'Back', listings_path %>

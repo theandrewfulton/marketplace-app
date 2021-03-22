@@ -9,6 +9,7 @@ class ListingsController < ApplicationController
   # GET /listings/1 or /listings/1.json
   def show
     session = Stripe::Checkout::Session.create(
+      payment_method_types: ['card'],
       customer_email: current_user.email,
       line_items: [{
         name: @listing.title,
