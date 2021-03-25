@@ -62,9 +62,13 @@
   <%= @listing.sold %>
 </p>
 <%# potentially move javascript in script tage to separate js file %>
-<button data-stripe="payment">
-Buy Now
-</button>
+<% if user_signed_in? %>
+  <button data-stripe="payment">
+  Buy Now
+  </button>
+<% else %>
+  <%= button_to "Buy Now", new_user_session_path, method: :get %>
+<% end %>
 
 <script src="https://js.stripe.com/v3/"></script>
 <script>
