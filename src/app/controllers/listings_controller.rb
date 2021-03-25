@@ -1,6 +1,9 @@
 class ListingsController < ApplicationController
   before_action :set_listing, only: %i[ show edit update destroy ]
+  # except instead of only
   before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy]
+  # cancancan authorisation
+  load_and_authorize_resource
   # GET /listings or /listings.json
   def index
     @listings = Listing.all
