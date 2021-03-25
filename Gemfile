@@ -67,3 +67,6 @@ gem 'activestorage-cloudinary-service'
 gem 'stripe'
 gem 'omniauth'
 gem 'omniauth-stripe-connect'
+
+# cancancan for authorisation
+gem 'cancancan'
