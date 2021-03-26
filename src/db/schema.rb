@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_26_075707) do
+ActiveRecord::Schema.define(version: 2021_03_26_091117) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -48,7 +48,7 @@ ActiveRecord::Schema.define(version: 2021_03_26_075707) do
     t.string "location", null: false
     t.text "description"
     t.integer "price"
-    t.string "unit"
+    t.integer "unit", default: 0
     t.integer "quantity_total"
     t.integer "quantity_available"
     t.float "rating"
@@ -58,12 +58,6 @@ ActiveRecord::Schema.define(version: 2021_03_26_075707) do
     t.datetime "updated_at", precision: 6, null: false
     t.bigint "user_id", null: false
     t.index ["user_id"], name: "index_listings_on_user_id"
-  end
-
-  create_table "units", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "users", force: :cascade do |t|
