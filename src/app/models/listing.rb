@@ -1,8 +1,7 @@
 class Listing < ApplicationRecord
     belongs_to :user
-    
-    # validations
     has_many_attached :images
+    # validations
     validates_length_of :images, maximum: 5
     validates :title, presence: true
     validates :location, presence: true
