@@ -45,9 +45,9 @@ ActiveRecord::Schema.define(version: 2021_03_26_091117) do
 
   create_table "listings", force: :cascade do |t|
     t.string "title"
-    t.string "location", null: false
+    t.string "location"
     t.text "description"
-    t.integer "price"
+    t.float "price"
     t.integer "unit", default: 0
     t.integer "quantity_total"
     t.integer "quantity_available"
