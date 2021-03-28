@@ -12,7 +12,6 @@
         <div class="p-4">
             <p class="text-grey-600 text-sm">Fresh Local is a place for you and your neighbours to buy and sell the things you grow! </p>
             <div class="mt-4">
-            <%# Implement "About Page" %>
                 <%= link_to "About", pages_about_path, class: "block md:inline-block text-sm px-4 py-2 leading-none rounded text-white border-white bg-indigo-500 hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 md:mt-0" %>
                 <%= link_to "Sign Up", new_user_registration_path, class: "block md:inline-block text-sm px-4 py-2 leading-none rounded text-white border-white bg-indigo-500 hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 md:mt-0" %>
                 <%= link_to "Sign in", new_user_session_path, class: "block md:inline-block text-sm px-4 py-2 leading-none rounded text-white border-white bg-indigo-500 hover:border-transparent hover:text-indigo-500 hover:bg-white mt-4 md:mt-0" %>
@@ -72,9 +71,10 @@
           <%= listing.location %>
         </p>      
       <%# grab first image not working %>
-        <div style="image: url(<%= listing.images.first %>)"
-             class="bg-cover bg-center bg-gray-300 h-32 rounded">
+        <div style="background-image: src('<%= listing.images.first %>')"
+         class="bg-cover bg-center bg-gray-300 h-32 rounded">
         </div>
+        <image src="<%=(url_for(listing.images.first))%>">
       </div>
       <div class="mt-6">
         <p class="text-lg text-bold tracking-wide text-gray-600 mb-2">
