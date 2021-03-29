@@ -80,15 +80,15 @@ The target audience is people who grow their own produce in towns and cities in 
 
 ### Screenshots
 
-![listings](/docs/listings.png)
+![listings](docs/listings.png)
 
-![listing](/docs/listing.png)
+![listing](docs/listing.png)
 
-![about](/docs/about.png)
+![about](docs/about.png)
 
-![user-details](/docs/user-details.png)
+![user-details](docs/user-details.png)
 
-![not_signed_in](/docs/not_signed_in.png)
+![not_signed_in](docs/not_signed_in.png)
 
 ## User Stories
 
@@ -107,51 +107,51 @@ The target audience is people who grow their own produce in towns and cities in 
 
 As noted above, the views are far from complete and as a result are quite different to the wireframes displayed below. These wireframes were created before I did any research on Tailwind CSS and its capabilities. Wherever possible, templates were used in order to reduce the time spend on styling and this resulted in differences from the wireframes. As development of the app progressed some fields also changed and others have not been implemented.
 
-![Mobile About](/docs/Mobile About.png)
+![Mobile About](docs/Mobile_About.png)
 
-![Mobile Buy](/docs/Mobile Buy.png)
+![Mobile Buy](docs/Mobile_Buy.png)
 
-![Mobile Create_Edit](/docs/Mobile Create_Edit.png)
+![Mobile Create_Edit](docs/Mobile_Create_Edit.png)
 
-![Mobile Listing](/docs/Mobile Listing.png)
+![Mobile Listing](docs/Mobile_Listing.png)
 
-![Mobile Sign In](/docs/Mobile Sign In.png)
+![Mobile Sign In](docs/Mobile_Sign_In.png)
 
-![Mobile Sign Up](/docs/Mobile Sign Up.png)
+![Mobile Sign Up](docs/Mobile_Sign_Up.png)
 
-![Mobile View All](/docs/Mobile View All.png)
+![Mobile View All](docs/Mobile_View_All.png)
 
-![PC About](/docs/PC About.png)
+![PC About](docs/PC_About.png)
 
-![PC Buy](/docs/PC Buy.png)
+![PC Buy](docs/PC_Buy.png)
 
-![PC Create_Edit](/h/docs/PC Create_Edit.png)
+![PC Create_Edit](docs/PC_Create_Edit.png)
 
-![PC Listing](/docs/PC Listing.png)
+![PC Listing](docs/PC_Listing.png)
 
-![PC Sign In](/docs/PC Sign In.png)
+![PC Sign In](docs/PC_Sign_In.png)
 
-![PC Sign Up](/docs/PC Sign Up.png)
+![PC Sign Up](docs/PC_Sign_Up.png)
 
-![PC View All](/docs/PC View All.png)
+![PC View All](docs/PC_View_All.png)
 
-![Tablet About](/docs/Tablet About.png)
+![Tablet About](docs/Tablet_About.png)
 
-![Tablet Buy](/docs/Tablet Buy.png)
+![Tablet Buy](docs/Tablet_Buy.png)
 
-![Tablet Create_Edit](/docs/Tablet Create_Edit.png)
+![Tablet Create_Edit](docs/Tablet_Create_Edit.png)
 
-![Tablet Listing](/docs/Tablet Listing.png)
+![Tablet Listing](docs/Tablet_Listing.png)
 
-![Tablet Sign In](/docs/Tablet Sign In.png)
+![Tablet Sign In](docs/Tablet_Sign_In.png)
 
-![Tablet Sign Up](/docs/Tablet Sign Up.png)
+![Tablet Sign Up](docs/Tablet_Sign_Up.png)
 
-![Tablet View All](/docs/Tablet View All.png)
+![Tablet View All](docs/Tablet_View_All.png)
 
 ## ERD
 
-![ERD](/docs/ERD.png)
+![ERD](docs/ERD.png)
 
 ## Explain the different high-level components (abstractions) in your *app*
 
