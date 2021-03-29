@@ -80,15 +80,15 @@ The target audience is people who grow their own produce in towns and cities in 
 
 ### Screenshots
 
-![listings](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/listings.png)
+![listings](/docs/listings.png)
 
-![listing](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/listing.png)
+![listing](/docs/listing.png)
 
-![about](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/about.png)
+![about](/docs/about.png)
 
-![user-details](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/user-details.png)
+![user-details](/docs/user-details.png)
 
-![not_signed_in](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/not_signed_in.png)
+![not_signed_in](/docs/not_signed_in.png)
 
 ## User Stories
 
@@ -107,51 +107,51 @@ The target audience is people who grow their own produce in towns and cities in 
 
 As noted above, the views are far from complete and as a result are quite different to the wireframes displayed below. These wireframes were created before I did any research on Tailwind CSS and its capabilities. Wherever possible, templates were used in order to reduce the time spend on styling and this resulted in differences from the wireframes. As development of the app progressed some fields also changed and others have not been implemented.
 
-![Mobile About](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Mobile About.png)
+![Mobile About](/docs/Mobile About.png)
 
-![Mobile Buy](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Mobile Buy.png)
+![Mobile Buy](/docs/Mobile Buy.png)
 
-![Mobile Create_Edit](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Mobile Create_Edit.png)
+![Mobile Create_Edit](/docs/Mobile Create_Edit.png)
 
-![Mobile Listing](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Mobile Listing.png)
+![Mobile Listing](/docs/Mobile Listing.png)
 
-![Mobile Sign In](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Mobile Sign In.png)
+![Mobile Sign In](/docs/Mobile Sign In.png)
 
-![Mobile Sign Up](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Mobile Sign Up.png)
+![Mobile Sign Up](/docs/Mobile Sign Up.png)
 
-![Mobile View All](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Mobile View All.png)
+![Mobile View All](/docs/Mobile View All.png)
 
-![PC About](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/PC About.png)
+![PC About](/docs/PC About.png)
 
-![PC Buy](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/PC Buy.png)
+![PC Buy](/docs/PC Buy.png)
 
-![PC Create_Edit](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/PC Create_Edit.png)
+![PC Create_Edit](/h/docs/PC Create_Edit.png)
 
-![PC Listing](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/PC Listing.png)
+![PC Listing](/docs/PC Listing.png)
 
-![PC Sign In](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/PC Sign In.png)
+![PC Sign In](/docs/PC Sign In.png)
 
-![PC Sign Up](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/PC Sign Up.png)
+![PC Sign Up](/docs/PC Sign Up.png)
 
-![PC View All](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/PC View All.png)
+![PC View All](/docs/PC View All.png)
 
-![Tablet About](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Tablet About.png)
+![Tablet About](/docs/Tablet About.png)
 
-![Tablet Buy](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Tablet Buy.png)
+![Tablet Buy](/docs/Tablet Buy.png)
 
-![Tablet Create_Edit](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Tablet Create_Edit.png)
+![Tablet Create_Edit](/docs/Tablet Create_Edit.png)
 
-![Tablet Listing](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Tablet Listing.png)
+![Tablet Listing](/docs/Tablet Listing.png)
 
-![Tablet Sign In](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Tablet Sign In.png)
+![Tablet Sign In](/docs/Tablet Sign In.png)
 
-![Tablet Sign Up](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Tablet Sign Up.png)
+![Tablet Sign Up](/docs/Tablet Sign Up.png)
 
-![Tablet View All](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/Tablet View All.png)
+![Tablet View All](/docs/Tablet View All.png)
 
 ## ERD
 
-![ERD](/home/andrew/Documents/New Coder to Merge/Term 2/Marketplace App/docs/ERD.png)
+![ERD](/docs/ERD.png)
 
 ## Explain the different high-level components (abstractions) in your *app*
 
